@@ -1,0 +1,45 @@
+.headerColor{
+    background-color: #FF8000;
+    color: #FF8000;
+}
+
+.Typography{
+    padding-left: 1rem;
+    color: white;
+}
+
+.SearchBar{
+    display: flex;
+    
+}
+
+.ButtonLogin{
+    font-size: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.HeaderLuna-logo {
+    height: 8dvb;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .HeaderLuna-logo {
+      animation: Header-logo-spin infinite 3s linear;
+    }
+  }
+
+  @keyframes Header-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  .ButtonNav {
+    color:white;
+  }
